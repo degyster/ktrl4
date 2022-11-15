@@ -1,0 +1,107 @@
+body{
+    background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.osnova{
+    width: 1161px;
+    margin: auto;
+    height: 1000px;
+    /* background-color: gray; */
+    
+    
+}
+
+.text-top{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.content{
+    /* background-color:  rgba(255, 0, 0, 0.486); */
+    width: 1161px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aqua;
+    height: 300px;
+    width: 330px;
+    margin: 28px;
+    display: flex;
+
+    flex-direction: column;
+    border-top-right-radius: 50px;
+}
+.card-title{
+    padding: 25px 0;
+    margin-left: 6px;
+}
+.down-card-text{
+    margin-left: 6px;
+}
+.img-card{
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1040px) {
+    .osnova{
+        width: 900px;
+        margin: 0;
+        height: 1700px;
+
+    }
+    .content{
+        width: 600px;
+        height: 0px;
+    }
+    .card{
+    background-color: aqua;
+    height: 322px;
+    width: 250px;
+
+    }
+}
+@media screen and (max-width: 800px) {
+    .osnova{
+        width: 900px;
+        margin: 0;
+        height: 1700px;
+
+    }
+    .card{
+    background-color: aqua;
+    height: 322px;
+    width: 250px;
+
+    }
+}
+@media screen and (max-width: 640px) {
+    .osnova{
+        width: 800px;
+        margin: 0;
+        height: 1700px;
+
+    }
+    .content{
+        width: 600px;
+        height: 0px;
+    }
+    .card{
+    background-color: aqua;
+    height: 259px;
+    width: 400px;
+        margin: 5px;
+    }
+}
